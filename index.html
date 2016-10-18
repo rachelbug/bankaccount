@@ -22,21 +22,29 @@
         </div>
         <button type="submit" class="btn btn-primary" id="create">Create Account!</button>
       </form>
-      <form id="transaction-info">
-        <h2>Deposit or withdraw money: </h2>
+      <form id="deposit-info">
+        <h2>Deposit Money: </h2>
         <div class="form-group">
           <label for="transaction1">Deposit amount:  </label>
           <input type="text" class="form-control" id="transaction1">
         </div>
+        <button type="submit" class="btn btn-primary" id="deposit-btn">Deposit</button>
+      </form>
+
+      <form id="withdrawal-info">
+        <h2>Withdraw Money: </h2>
         <div class="form-group">
           <label for="transaction2">Withdrawal amount:  </label>
           <input type="text" class="form-control" id="transaction2">
         </div>
-        <button type="submit" class="btn btn-primary" id="create">Submit!</button>
+        <button type="submit" class="btn btn-primary" id="withdraw-btn">Withdraw</button>
       </form>
+
+
       <div class="account-balance">
         <h2>Account Balance:</h2>
-        <p><span id="balance"></p>
+        <p><span id="withdraw-balance"></p>
+        <p><span id="deposit-balance"></p>
       </div>
 
     </div>
